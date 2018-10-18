@@ -10,7 +10,6 @@
 3. pipenv shell 进入虚拟环境
 4. pipenv install 安装依赖
 
-
 ####windows下使用:
 ######此处运行有个bug，在pycharm中运行可以使用，命令行运行无法使用
 1. 下载:https://github.com/wangyitao/cbot
