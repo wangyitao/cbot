@@ -8,6 +8,7 @@ sqlalchemy = "*"
 python-dateutil = "*"
 python-levenshtein = "*"
 requests = "*"
+pygame = "*"
 
 [dev-packages]
 
