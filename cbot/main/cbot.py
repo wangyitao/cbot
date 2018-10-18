@@ -97,7 +97,7 @@ class CBot(object):
         """
         if api == 'turing':
             from ..api import Turing
-            if hasattr(self, 'turing_key'):
+            if hasattr(self, 'turing_key') and getattr(self,'turing_key').strip():
                 turing = Turing(self.turing_key)
             else:
                 raise AttributeError(
