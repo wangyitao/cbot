@@ -1,0 +1,26 @@
+bin
+build
+dist
+include
+lib
+venv
+.tox
+.coverage
+*.pyc
+*.swp
+*.egg-info
+*.egg/*
+*.eggs/*
+*.doctrees
+
+# Database files
+*.sqlite3
+*.db
+
+# IntelliJ
+.idea
+*.iml
+
+
+# ignore local test
+rebot
