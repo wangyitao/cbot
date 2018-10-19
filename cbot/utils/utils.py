@@ -74,7 +74,7 @@ def remove_stopwords(tokens, language):
     """
     去除中文结束词
     """
-    from . import stopwords
+    from .stopwords import stopwords
 
     # 删除结束词
     tokens = set(tokens) - set(stopwords)

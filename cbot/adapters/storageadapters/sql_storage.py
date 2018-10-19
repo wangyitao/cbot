@@ -2,7 +2,7 @@ from ..storageadapters import StorageAdapter
 
 
 def get_response_table(response):
-    from cbot.ext.sqlalchemy_app.models import Response
+    from ...ext.sqlalchemy_app.models import Response
     return Response(text=response.text, occurrence=response.occurrence)
 
 

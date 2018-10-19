@@ -1,4 +1,4 @@
-from ..inputadapters import InputAdapter
+from . import InputAdapter
 from ...utils.conversation import Statement
 
 

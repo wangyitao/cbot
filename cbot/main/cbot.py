@@ -146,7 +146,7 @@ class CBot(object):
         :param previous_statement: cbot预测内容
         :return:
         """
-        from cbot.utils.conversation import Response
+        from ..utils.conversation import Response
 
         if previous_statement:
             statement.add_response(
