@@ -96,7 +96,13 @@ class CBot(object):
         :return:
         """
         if api == 'turing':
-            from ..api import Turing
+            try:
+                from ..api import Turing
+            except ImportError as e:
+                try:
+                    from ..api.turing.turing import Turing
+                except ImportError as e:
+                    from cbot.api import Turing
             if hasattr(self, 'turing_key') and getattr(self,'turing_key').strip():
                 turing = Turing(self.turing_key)
             else:
