@@ -24,3 +24,5 @@ venv
 
 # ignore local test
 rebot
+
+*.in
