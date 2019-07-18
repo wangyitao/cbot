@@ -1,15 +1,17 @@
 # cbot 
 ## a chinese chat robot
 ### Introduction to cbot usage：
+
 ##### version：0.1.4.3
 #### how to install cbot:
-```angular2html
+```python
 pip install cbot
 ```
 #### if you got an error when install python-Levenshtein package
 #### you can download .whl file at [python-levenshtein](https://www.lfd.uci.edu/~gohlke/pythonlibs/#python-levenshtein) and install this package:
 #### If you want to use it locally:
-```angular2html
+
+```python
 from cbot import CBot
 cbot = CBot('cbotName')
 
@@ -41,7 +43,8 @@ while True:
     print('cbot：', reponse)
 ```
 #### If you want to use it with turing api:
-```angular2html
+
+```python
 from cbot import CBot
 
 cbot = CBot('felix')
@@ -50,7 +53,7 @@ while True:
     que = input('我：')
     reponse = cbot.get_response(str(que), api='turing')
     print('CBot：', reponse)
-```
+
 #### Now have fun!
 #### If you get a bug,you can send the bug to my email.
 #### Here is my email:felix2@foxmail.com
